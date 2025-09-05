@@ -24,7 +24,7 @@ let go2Socks5s = [
     '*.loadshare.org',
 ];
 let addresses = [];
-let addressesapi = ["https://raw.githubusercontent.com/wylgl/wodeipcj/refs/heads/main/ip.txt"];
+let addressesapi = [];
 let addressesnotls = [];
 let addressesnotlsapi = [];
 let addressescsv = [];
@@ -4568,4 +4568,5 @@ async function nginx() {
 	`
     return text;
 }
+
 
